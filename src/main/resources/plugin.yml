@@ -1,0 +1,10 @@
+main: com.ylivirta.SynchronizePlayerData
+name: SynchronizePlayerData
+version: '1.0'
+description: Ylivirta
+api-version: 1.16
+author: Ylivirta
+website: www.ylivirta.com
+permissions:
+  SynchronizePlayerData.admin:
+    default: false

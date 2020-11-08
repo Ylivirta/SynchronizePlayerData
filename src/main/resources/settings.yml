@@ -1,0 +1,23 @@
+MySQL:
+  host: localhost
+  port: 3306
+  database: none
+  username: none
+  password: none
+  delay: 2000
+
+Translation:
+  reload_success: "Reloading was successful"
+  reload_fail: "Error: &key& at reloading"
+  lang:
+    - cant_save_item_stack: "Cant save item stacks"
+    - cant_decode_class_type: "Cant decode class type"
+    - negative_exp: "Experience is negative!"
+    - is_null: "Value: &key& was null"
+    - function_failed: "Function &key& failed. Error:"
+    - synced: "Player data has been synced to database"
+    - player_data: "online players data"
+    - save_all_start: "Saving &key&"
+    - save_all_end: "All &key& has been saved"
+
+Version: 1
