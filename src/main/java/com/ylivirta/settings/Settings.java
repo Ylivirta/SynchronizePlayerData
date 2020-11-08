@@ -83,8 +83,8 @@ public class Settings extends SimpleSettings {
 				LANG.put("set_data", translatedValue.replace("&key&",
 						"void setData(final UUID uid, final Player player,\n" +
 								"\t\t\t\t\t\tdouble health, double healthScale,\n" +
-								"\t\t\t\t\t\tint foodLevel, float saturation, float exp,\n" +
-								"\t\t\t\t\t\tint expToLevel, int totalExp, int expLevel,\n" +
+								"\t\t\t\t\t\tint foodLevel, float saturation\n" +
+								"\t\t\t\t\t\tint totalExp,\n" +
 								"\t\t\t\t\t\tString endChest, String inventory, String armor)")
 				);
 			}
